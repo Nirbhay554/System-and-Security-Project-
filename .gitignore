@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging & Build directories
+build/
+dist/
+*.spec
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+myenv/
+
+# Runtime logs and traces
+*.log
+monitor/*.log
+behavioral_trace.log
+recovery_keys.log
+
+# Temporary encrypted demonstration files
+*.core_encrypted
+*.backup_encrypted
+*.pro_py
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
